@@ -3,6 +3,39 @@
     padding: 0;
 }
 
+.bottomMenu {
+    display: none;
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* width: 100%; */
+    /* height: 60px; */
+    /* border-top: 1px solid #000; */
+    /* background: red; */
+    z-index: 1;
+}
+
+.bottomMenu2 {
+    display: none;
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* width: 100%; */
+    /* height: 60px; */
+    /* border-top: 1px solid #000; */
+    /* background: red; */
+    z-index: 1;
+}
+
+.bottomMenu3 {
+    display: none;
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* width: 100%; */
+    /* height: 60px; */
+    /* border-top: 1px solid #000; */
+    /* background: red; */
+    z-index: 1;
+}
+
 .ellipse {
     position: absolute;
     width: 508px;
@@ -92,7 +125,7 @@
         text-align: center;
     }
     .theText {
-        font-size: 10px;
+        font-size: 12px;
         text-align: left;
         word-wrap: break-word;
         inline-size: 280px;
@@ -101,7 +134,7 @@
     }
     .bp {
         position: absolute;
-        top: 2630px !important;
+        top: 1850px !important;
         left: 110px !important;
         width: 150px !important;
         height: 150px !important;
@@ -136,19 +169,19 @@
     .ne-logo2 {
         position: relative;
         top: -40px;
-        left: 90px !important;
+        left: 50px !important;
         font-size: 16px !important;
     }
     .ne-logo3 {
         position: relative;
         top: -40px;
-        left: 90px !important;
+        left: 60px !important;
         font-size: 16px !important;
     }
     .ne-logo4 {
         position: relative;
         top: -40px;
-        left: 90px !important;
+        left: 70px !important;
         font-size: 16px !important;
     }
 }

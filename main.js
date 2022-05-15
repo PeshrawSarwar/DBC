@@ -26,3 +26,26 @@ var x = setInterval(function() {
         document.getElementById("demo").innerHTML = "EXPIRED";
     }
 }, 1000);
+
+
+
+$(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 10) {
+        $('.bottomMenu').fadeIn();
+    } else {
+        $('.bottomMenu').fadeOut();
+    }
+
+    if (y > 350) {
+        $('.bottomMenu2').fadeIn();
+    } else {
+        $('.bottomMenu2').fadeOut();
+    }
+
+    if (y > 750) {
+        $('.bottomMenu3').fadeIn();
+    } else {
+        $('.bottomMenu3').fadeOut();
+    }
+});
