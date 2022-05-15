@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -71,7 +71,20 @@ body {
     height: 350px !important;
 }
 
+.txtBelImage {
+    position: absolute;
+    top: 330px;
+    left: 375px;
+}
+
 @media only screen and (max-width: 1100px) {
+    /* body {
+        background-color: #2D3194 !important;
+    } */
+    * {
+        margin: 0;
+        padding: 0;
+    }
     .ellipse {
         display: none;
     }
@@ -88,13 +101,54 @@ body {
     }
     .bp {
         position: absolute;
-        top: 2710px !important;
-        left: 150px !important;
+        top: 2630px !important;
+        left: 110px !important;
         width: 150px !important;
         height: 150px !important;
     }
     .theLogos {
-        width: 75px !important;
-        height: 75px !important;
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .headerText {
+        /* background-color: red !important; */
+        /* wrap the text with the size of the container */
+        word-wrap: break-word;
+    }
+    .LogoText {
+        font-size: 28px !important;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .txtBelImage {
+        position: absolute;
+        top: 330px;
+        left: 115px;
+    }
+    .ne-logo1 {
+        position: relative;
+        top: -40px;
+        left: 70px !important;
+        font-size: 16px !important;
+    }
+    .ne-logo2 {
+        position: relative;
+        top: -40px;
+        left: 90px !important;
+        font-size: 16px !important;
+    }
+    .ne-logo3 {
+        position: relative;
+        top: -40px;
+        left: 90px !important;
+        font-size: 16px !important;
+    }
+    .ne-logo4 {
+        position: relative;
+        top: -40px;
+        left: 90px !important;
+        font-size: 16px !important;
     }
 }
