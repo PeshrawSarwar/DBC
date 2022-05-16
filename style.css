@@ -127,14 +127,15 @@
         word-wrap: break-word;
         inline-size: 280px;
         position: relative;
-        top: 90px !important;
+        top: 5px !important;
     }
     .bp {
         position: absolute;
-        top: 1980px !important;
+        top: 1780px !important;
         left: 110px !important;
         width: 150px !important;
         height: 150px !important;
+        display: none;
     }
     .theLogos {
         width: 50px !important;
