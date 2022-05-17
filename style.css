@@ -131,6 +131,13 @@
         word-wrap: break-word;
     }
     .LogoText {
+        /* font-size: 28px !important; */
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .LogoText2 {
         font-size: 28px !important;
         text-align: center;
         text-overflow: ellipsis;
