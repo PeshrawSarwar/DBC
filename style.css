@@ -36,6 +36,11 @@
     color: #2256CE !important;
 }
 
+.LogoText2 {
+    color: #2256CE !important;
+    font-size: 30px !important;
+}
+
 .HeaderText {
     color: #2256CE !important;
 }
@@ -108,12 +113,13 @@
         text-align: center;
     }
     .theText {
-        font-size: 12px;
-        text-align: left;
+        font-size: 15px;
+        text-align: center;
         word-wrap: break-word;
-        inline-size: 280px;
+        /* inline-size: 300px; */
         position: relative;
-        top: 5px !important;
+        bottom: 50px !important;
+        padding: 10px;
     }
     .bp {
         position: absolute;
@@ -143,6 +149,7 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
+        margin-top: 5px;
     }
     .txtBelImage {
         position: absolute;
@@ -172,5 +179,17 @@
         top: -40px;
         left: 70px !important;
         font-size: 16px !important;
+    }
+    .lg1 {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .lg2 {
+        width: 160px !important;
+        height: 150px !important;
+    }
+    .lg3 {
+        width: 110px !important;
+        height: 110px !important;
     }
 }
