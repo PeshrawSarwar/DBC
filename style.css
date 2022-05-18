@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.txtShadow {
+    text-shadow: 2px 2px #ff0000 !important;
+}
+
 .toMob {
     display: none;
 }
@@ -38,6 +42,7 @@
 
 .LogoText {
     color: #2256CE !important;
+    text-shadow: 0 0 3px #C4C4C4, 0 0 5px #0000FF;
 }
 
 .LogoText2 {
@@ -124,16 +129,20 @@
     .ellipse {
         display: none;
     }
+    .theEntire {
+        height: 500px;
+    }
     .textLogoNear {
         text-align: center;
+        word-wrap: break-word;
+        /* height: 600px !important; */
     }
     .theText {
         font-size: 15px;
         text-align: center;
-        word-wrap: break-word;
         /* inline-size: 300px; */
         position: relative;
-        bottom: 50px !important;
+        bottom: 0px !important;
         padding: 10px;
     }
     .bp {
