@@ -4,7 +4,7 @@
 }
 
 .txtShadow {
-    text-shadow: 2px 2px #ff0000 !important;
+    text-shadow: 0 0 3px #C4C4C4, 0 0 5px #0000FF;
 }
 
 .toMob {
