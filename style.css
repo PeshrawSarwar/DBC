@@ -216,4 +216,7 @@
         width: 110px !important;
         height: 110px !important;
     }
+    .mayaLogo {
+        margin: 0px !important;
+    }
 }
